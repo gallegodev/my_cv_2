@@ -364,7 +364,29 @@ button[type="submit"] {
 }
 
 
+/* ----------------------------------------Media Querie 1800px*/
+@media screen and (max-width: 1800px) {
+    .logo {
+        height: 570px;
+        width: 100%;
+    }
+}
 
+/* ----------------------------------------Media Querie 1200px*/
+@media screen and (max-width: 1200px) {
+    .logo {
+        height: 380px;
+        min-height: 360px;
+    }
+}
+
+/* ----------------------------------------Media Querie 770px*/
+@media screen and (max-width: 770px) {
+    .logo {
+        height: 550px;
+        min-height: 360px;
+    }
+}
 /* ----------------------------------------Media Querie 992px*/
 
 @media(min-width: 992px) {
