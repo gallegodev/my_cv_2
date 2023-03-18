@@ -90,6 +90,8 @@ header {
 }
 
 .logo {
+    height: 570px;
+    width: 100%;
     background: url("../images/pr6.JPG");
     background-position: center;
     background-repeat: no-repeat;
@@ -361,7 +363,9 @@ button[type="submit"] {
     background-color: #e84610;
 }
 
-/* ----------------------------------------Media Queries */
+
+
+/* ----------------------------------------Media Querie 992px*/
 
 @media(min-width: 992px) {
     .center-form {
